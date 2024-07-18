@@ -27,7 +27,7 @@
     },
     "rich-text": { 
         "props": { 
-          "text": "Hola Mundo desde VTEX IO",
+          "text": "iWATCH",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
           "font": "t-heading-1"
