@@ -1,6 +1,9 @@
 {
     "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+    "title": "List image Home",
+    "children": [
+      "slider-layout#demo-images"
+    ],
     "props": {
       "preload": true,
       "height": 650,
@@ -20,6 +23,7 @@
   },
 
   "slider-layout#demo-images": {
+    "title": "Slider home demo images empty",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
