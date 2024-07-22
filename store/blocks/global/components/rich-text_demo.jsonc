@@ -5,7 +5,9 @@
         "flex-layout.col#text__one--home",
         "flex-layout.col#text__two--home"
       ],
-      "props": {}
+      "props": {
+        "fullWidth": true
+      }
     },
     "flex-layout.col#text__one--home": {
       "title": "Text col one home",
@@ -36,7 +38,10 @@
           "text": "iWATCH",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "font": "t-heading-1"
+          "font": "t-heading-1",
+          "blockClass":[
+            "ejemplo"
+          ]
         }
       }
 }
