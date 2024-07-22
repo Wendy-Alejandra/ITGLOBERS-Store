@@ -1,7 +1,7 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#text__one--home",
+      "flex-layout.row#watches__banner--home",
       "list-context.image-list#demo",
       "slider-layout#text-test"
     ]

@@ -1,0 +1,104 @@
+{
+    "flex-layout.row#watches__banner--home": {
+      "title": "Text row one home",
+      "children": [
+        "flex-layout.col#watch__up--home",
+        "flex-layout.col#iwatch__text--home",
+        "flex-layout.col#watch__down--home"
+      ],
+      "props": {
+        "fullWidth": true,
+        "blockClass": "watches__banner"
+      }
+    },
+    "flex-layout.col#watch__up--home": {
+      "title": "Image col watch up home",
+      "children": [
+        "image#watch__up"
+      ],
+      "props": {
+        "width": "30%",
+        "fullWidth": true,
+        "blockClass":[
+          "col__watchup"
+        ]
+      }
+    },
+    "flex-layout.col#iwatch__text--home": {
+      "title": "Text col iwatch home",
+      "children": [
+        "rich-text#iwatch__text",
+        "rich-text#ultra__text",
+        "rich-text#amazing__text"
+      ],
+      "props": {
+        "width": "33%",
+        "blockClass":[
+          "col__iwatch"
+        ]
+      }
+    },
+    "flex-layout.col#watch__down--home": {
+      "title": "Image col watch down home",
+      "children": [
+        "image#watch__down"
+      ],
+      "props": {
+        "width": "33%",
+        "blockClass":[
+          "col__watchdown"
+        ]
+      }
+    },
+    "rich-text#iwatch__text": { 
+        "props": { 
+          "text": "iWATCH",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-1",
+          "blockClass":[
+            "iwatch"
+          ]
+        }
+      },
+      "rich-text#ultra__text": { 
+        "props": { 
+          "text": "ULTRA 2",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-1",
+          "blockClass":[
+            "ultra"
+          ]
+        }
+      },
+      "rich-text#amazing__text": { 
+        "props": { 
+          "text": "an amazing product.",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-1",
+          "blockClass":[
+            "amazing"
+          ]
+        }
+      },
+    "image#watch__up": {
+      "title": "Image one",
+      "props": {
+        "src": "assets/img/watch-up-Desktop.png",
+        "blockClass":[
+          "watch__up"
+        ]
+      }
+    },
+    "image#watch__down": {
+      "title": "Image two",
+      "props": {
+        "src": "assets/img/watch-down-Desktop.png",
+        "blockClass":[
+          "watch__down"
+        ]
+      }
+    }
+}
