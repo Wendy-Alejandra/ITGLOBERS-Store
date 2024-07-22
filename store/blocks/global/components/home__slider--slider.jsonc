@@ -12,16 +12,15 @@
       "blockClass": "carousel"
     },
     "children": [
-      "image#example__1",
+      "flex-layout.row#test__one--slider-home",
       "image#example__2",
       "image#example__3"
     ]
   },
-
   "rich-text#1": {
     "title": "text one",
     "props": {
-      "text": "Test1"
+      "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit accumsan blandit convallis, habitant laoreet aptent varius aliquet nostra cum eros ultrices faucibus, magna felis rutrum interdum fringilla natoque suspendisse tristique semper. Neque et justo augue viverra blandit fusce posuere vulputate rutrum, eget phasellus id dis fames suscipit rhoncus sodales diam tellus, taciti aliquet aliquam nascetur accumsan porta turpis class."
     }
   },
   "rich-text#2": {
@@ -39,19 +38,44 @@
   "image#example__1": {
     "title": "Image one",
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "src": "assets/img/1__example.png"
     }
   },
   "image#example__2": {
     "title": "Image two",
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "src": "assets/img/2__example.png"
     }
   },
   "image#example__3": {
     "title": "Image three",
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "src": "assets/img/3__example.png"
+    }
+  },
+  "flex-layout.row#test__one--slider-home": {
+    "title": "slider row test one",
+    "children": [
+      "flex-layout.col#test__one--slider-home",
+      "flex-layout.col#test__two--slider-home"
+    ]
+  },
+  "flex-layout.col#test__one--slider-home": {
+    "title": "slider col test one",
+    "children": [
+      "image#example__1"
+    ],
+    "props": {
+      "width": "50%"
+    },
+    "flex-layout.col#test__two--slider-home": {
+      "title": "slider col test two",
+      "children": [
+        "rich-text#1"
+      ],
+      "props": {
+        "width": "50%"
+      }
     }
   }
 }
