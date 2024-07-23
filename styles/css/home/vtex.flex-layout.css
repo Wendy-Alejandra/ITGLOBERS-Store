@@ -1,6 +1,8 @@
 .flexRowContent--watches__banner {
     width: 100%;
+    background-color: #F0F0F2;
 }
 .flexColChild--col__iwatch {
-    background-color: #F0F0F2;
+    margin: 0;
+    padding: 0;
 }

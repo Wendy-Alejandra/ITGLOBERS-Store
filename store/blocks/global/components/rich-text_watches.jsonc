@@ -7,7 +7,6 @@
         "flex-layout.col#watch__down--home"
       ],
       "props": {
-        "fullWidth": true,
         "blockClass": "watches__banner"
       }
     },
@@ -17,7 +16,7 @@
         "image#watch__up"
       ],
       "props": {
-        "width": "30%",
+        "width": "33%",
         "fullWidth": true,
         "blockClass":[
           "col__watchup"
@@ -33,6 +32,7 @@
       ],
       "props": {
         "width": "33%",
+        "verticalAlign": "middle",
         "blockClass":[
           "col__iwatch"
         ]
