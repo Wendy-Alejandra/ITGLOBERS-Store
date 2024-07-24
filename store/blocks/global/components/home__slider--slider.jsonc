@@ -38,7 +38,7 @@
   "image#example__1": {
     "title": "Image one",
     "props": {
-      "src": "assets/img/Info-Cards-03.png"
+      "src": "assets/img/Info-Card-Image.png"
     }
   },
   "image#example__2": {
