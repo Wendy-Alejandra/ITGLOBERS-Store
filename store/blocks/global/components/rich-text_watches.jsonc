@@ -28,7 +28,8 @@
       "children": [
         "rich-text#iwatch__text",
         "rich-text#ultra__text",
-        "rich-text#amazing__text"
+        "rich-text#amazing__text",
+        "image#comprar__button"
       ],
       "props": {
         "width": "33%",
@@ -86,7 +87,7 @@
     "image#watch__up": {
       "title": "Image one",
       "props": {
-        "src": "assets/img/watch-up-Desktop.png",
+        "src": "/arquivos/watch-up-Desktop.png",
         "blockClass":[
           "watch__up"
         ]
@@ -95,9 +96,19 @@
     "image#watch__down": {
       "title": "Image two",
       "props": {
-        "src": "assets/img/watch-down-Desktop.png",
+        "src": "/arquivos/watch-down-Desktop.png",
         "blockClass":[
           "watch__down"
+        ]
+      }
+    },
+    "image#comprar__button": {
+      "title": "Image two",
+      "props": {
+        "url": "https://github.com/Wendy-Alejandra/ITGLOBERS-Store",
+        "src": "/arquivos/Comprar-Button.png",
+        "blockClass":[
+          "comprar__button"
         ]
       }
     }

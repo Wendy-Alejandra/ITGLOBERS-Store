@@ -2,8 +2,7 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#watches__banner--home",
-      "list-context.image-list#demo",
-      "slider-layout#text-test"
+      "flex-layout.row#slider"
     ]
   }
 }
