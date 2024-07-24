@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#amazing__text--global": {
+      "title": "Amazing product global text",
+      "children": [
+        "rich-text#amazing__text"
+      ],
+      "props": {
+        "blockClass": "amazing"
+      }
+    },
+      "rich-text#amazing__text": { 
+        "props": { 
+          "text": "an amazing product.",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "font": "action",
+          "blockClass":[
+            "amazing__text"
+          ]
+        }
+      }
+}

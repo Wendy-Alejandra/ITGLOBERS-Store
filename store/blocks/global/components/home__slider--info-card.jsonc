@@ -56,7 +56,7 @@
       "image#card": {
         "title": "Screen image card",
         "props": {
-          "src": "assets/img/Info-Card-Image.png",
+          "src": "",
           "blockClass": [
             "screen__image--card"
           ]
@@ -107,7 +107,7 @@
       "image#stamp": {
         "title": "Stamp image card",
         "props": {
-          "src": "assets/img/Info-Card-Image.png",
+          "src": "",
           "blockClass": [
             "stamp__image--card"
           ]
