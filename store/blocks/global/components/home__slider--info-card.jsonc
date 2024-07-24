@@ -13,7 +13,7 @@
     "slider-layout#screen-images": {
       "props": {
         "itemsPerPage": {
-          "desktop": 3,
+          "desktop": 4,
           "tablet": 3,
           "phone": 1.5
         },
@@ -56,7 +56,7 @@
       "image#card": {
         "title": "Screen image card",
         "props": {
-          "src": "",
+          "src": "/arquivos/screen.png",
           "blockClass": [
             "screen__image--card"
           ]
@@ -107,7 +107,7 @@
       "image#stamp": {
         "title": "Stamp image card",
         "props": {
-          "src": "",
+          "src": "/arquivos/stamp.png",
           "blockClass": [
             "stamp__image--card"
           ]
