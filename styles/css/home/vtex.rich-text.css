@@ -1,3 +1,11 @@
-.paragraph--amazing--text {
-    font-weight: bold!important;
+.paragraph--amazing__text {
+    margin-left: 4.5rem;
+    font-weight: bold;
+}
+.paragraph--text--title {
+    margin: 0.86rem;
+    font-weight: bold;
+}
+.paragraph--text--description {
+    margin: 0.86rem;
 }

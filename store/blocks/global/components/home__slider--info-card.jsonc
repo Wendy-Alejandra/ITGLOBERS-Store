@@ -5,6 +5,8 @@
         "slider-layout#screen-images"
       ],
       "props": {
+        "colJustify": "1rem around",
+        "fullWidth": false,
         "blockClass": [
           "carrusel__total"
         ]
@@ -13,13 +15,14 @@
     "slider-layout#screen-images": {
       "props": {
         "itemsPerPage": {
-          "desktop": 4,
+          "desktop": 3,
           "tablet": 3,
           "phone": 1.5
         },
         "infinite": true,
         "showNavigationArrows": "always",
         "showPaginationDots": "always",
+        
         "blockClass": "custom_slider1"
       },
     "children": [
@@ -56,14 +59,15 @@
       "image#card": {
         "title": "Screen image card",
         "props": {
-          "src": "/arquivos/screen.png",
+          "width": "100%",
+          "src": "/arquivos/Info-Card-Image.png",
           "blockClass": [
             "screen__image--card"
           ]
         }
       },
       "flex-layout.row#info": {
-        "title": "Info title description and stamp",
+        "title": "Info title heading description and stamp award",
         "props":{
           "blockClass": [
             "info--card"
@@ -77,6 +81,7 @@
       "flex-layout.col#description": {
         "title": "Title and description",
         "props": {
+          "width": "85%",
           "blockClass": ["card__info--and--description"]
         },
         "children": [
@@ -85,8 +90,9 @@
         ]
       },
       "rich-text#title": {
-        "title": "Title",
+        "title": "Title heading",
         "props": {
+          "font": "body",
           "blockClass": ["text--title"],
           "text": "Heading"
         }
@@ -94,18 +100,25 @@
       "rich-text#description": {
         "title": "Description",
         "props": {
+          "font": "mini",
           "blockClass": ["text--description"],
           "text": "Builder platform is made by, buildership platform is made by"
         }
       },
       "flex-layout.col#stamp": {
-        "title": "Stamp",
+        "title": "Stamp award",
+        "props": {
+          "horizontalAlign": "right",
+          "blockClass": [
+            "col__stamp"
+          ]
+        },
         "children": [
           "image#stamp"
         ]
       },
       "image#stamp": {
-        "title": "Stamp image card",
+        "title": "Stamp award image card",
         "props": {
           "src": "/arquivos/stamp.png",
           "blockClass": [
@@ -114,8 +127,9 @@
         }
       },
       "flex-layout.row#button": {
-        "title": "Button",
+        "title": "Ver precio Button",
         "props": {
+          "horizontalAlign": "center",
           "blockClass": [
             "button--card"
           ]
@@ -125,12 +139,13 @@
         ]
       },
       "rich-text#button--card": {
-        "title": "Text button",
+        "title": "Text ver precio button",
         "props": {
+          "textAlignment": "center",
           "blockClass": [
             "text--button"
           ],
-          "text": "Ver precio"
+          "text": "Ver precio ->"
         }
       }
   }
