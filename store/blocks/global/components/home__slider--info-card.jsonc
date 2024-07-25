@@ -5,7 +5,6 @@
         "slider-layout#screen-images"
       ],
       "props": {
-        "colJustify": "1rem around",
         "fullWidth": false,
         "blockClass": [
           "carrusel__total"
@@ -14,8 +13,9 @@
     },
     "slider-layout#screen-images": {
       "props": {
+        "fullWidth": false,
         "itemsPerPage": {
-          "desktop": 3,
+          "desktop": 3.5,
           "tablet": 3,
           "phone": 1.5
         },
