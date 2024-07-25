@@ -5,6 +5,7 @@
         "image#image__banner"
       ],
       "props": {
+        "fullWidth": true,
         "blockClass": "watches__banner"
       }
     },

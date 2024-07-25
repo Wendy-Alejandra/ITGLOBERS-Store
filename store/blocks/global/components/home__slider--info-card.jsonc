@@ -48,6 +48,7 @@
     "flex-layout.row#image": {
       "title": "Image card",
       "props": {
+        "width": "100%",
         "blockClass": [
           "row__image--card"
         ]
@@ -59,7 +60,7 @@
       "image#card": {
         "title": "Screen image card",
         "props": {
-          "width": "100%",
+          
           "src": "/arquivos/Info-Card-Image.png",
           "blockClass": [
             "screen__image--card"
