@@ -15,17 +15,37 @@
       "props": {
         "fullWidth": false,
         "itemsPerPage": {
-          "desktop": 3.5,
+          "desktop": 4,
           "tablet": 3,
-          "phone": 1.5
+          "phone": 1
         },
         "infinite": true,
         "showNavigationArrows": "always",
         "showPaginationDots": "always",
-        
         "blockClass": "custom_slider1"
       },
     "children": [
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
+      "flex-layout.col#card",
       "flex-layout.col#card",
       "flex-layout.col#card",
       "flex-layout.col#card",
@@ -60,7 +80,6 @@
       "image#card": {
         "title": "Screen image card",
         "props": {
-          
           "src": "/arquivos/Info-Card-Image.png",
           "blockClass": [
             "screen__image--card"
