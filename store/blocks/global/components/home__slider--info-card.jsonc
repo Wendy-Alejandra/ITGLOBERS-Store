@@ -155,17 +155,16 @@
           ]
         },
         "children": [
-          "rich-text#button--card"
+          "image#button--card"
         ]
       },
-      "rich-text#button--card": {
+      "image#button--card": {
         "title": "Text ver precio button",
         "props": {
-          "textAlignment": "center",
+          "src": "/arquivos/button-verprecio.png",
           "blockClass": [
-            "text--button"
-          ],
-          "text": "Ver precio ->"
+            "verprecio--button"
+          ]
         }
       }
   }
