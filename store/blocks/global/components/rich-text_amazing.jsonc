@@ -10,7 +10,7 @@
     },
       "rich-text#amazing__text": { 
         "props": { 
-          "text": "an amazing product.",
+          "text": "An amazing product.",
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
           "font": "action",
