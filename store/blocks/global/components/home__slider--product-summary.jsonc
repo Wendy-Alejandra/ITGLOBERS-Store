@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#global__product-summary": {
+        "title": "Global row summary to products",
+        "props": {
+            "blockClass": "global__row__summary"
+        },
+        "children": [
+            "list-context.product-list#second-slider"
+        ]
+    },
+    "product-summary.shelf#second--slider": {
+        "title": "Structure to slider products summary",
+        "children": [
+            "flex-layout.row#discount-like",
+            "image#product",
+            "product-summary-name",
+            "product-summary-price",
+            "product-summary-buy-button"
+        ]
+    },
+    "list-context.product-list#second-slider": {
+        "title": "Container list to products",
+        "blocks": [
+            "product-summary.shelf#second--slider"
+        ],
+        "children": [
+            "slider-layout#global__slider--products"
+        ],
+        "props": {
+            "blockClass": "second-slider"
+        }
+    },
+    "slider-layout#global__slider--products": {
+        "title": "Slider structure to products summary",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "blockClass": [
+                "slider--products"
+            ]
+        }
+    },
+    "image#product": {
+        "props": {
+            "src": "/arquivos/desktop-computer-image-product-summary-slider.png",
+            "alt": "summary-image"
+        }
+    },
+    "flex-layout.row#discount-like": {
+        "title": "Container discount and like",
+        "props": {
+            "blockClass": "row-discount-like"
+        },
+        "children": [
+            "rich-text#text_discount",
+            "image#like"
+        ]
+    },
+
+    "rich-text#text_discount": {
+        "title": "product percent off",
+        "props": {
+            "text": "20% OFF",
+            "blockClass": "text-discount"
+        }
+    },
+    "image#like": {
+        "title": "like to product",
+        "props": {
+            "src": "/arquivos/Like.png",
+            "blockClass": "like-image"
+        }
+    },
+    "product-summary-name": {
+        "props": {
+            "blockClass": [
+                "summary-name"
+            ]
+        }
+    },
+    "product-summary-buy-button": {
+        "props": {
+            "isOneClickBuy": false,
+            "buyButtonText": "Comprar",
+            "blockClass": [
+                "summary-button"
+            ]
+        }
+    }
+}

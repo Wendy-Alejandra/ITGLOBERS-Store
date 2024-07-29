@@ -4,7 +4,12 @@
       "flex-layout.row#watches__banner--home",
       "flex-layout.row#amazing__text--global",
       "flex-layout.row#slider",
-      "flex-layout.row#amazing__text--global"
+      "flex-layout.row#amazing__text--global",
+      "flex-layout.row#global__product-summary",
+      "flex-layout.row#amazing__text--global",
+      "flex-layout.row#slider",
+      "flex-layout.row#amazing__text--global",
+      "flex-layout.row#global__product-summary"
     ]
   }
 }
