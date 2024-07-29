@@ -10,17 +10,30 @@
     },
     "product-summary.shelf#second--slider": {
         "title": "Structure to slider products summary",
+        "props":{
+            "blockClass": "product-shelf"
+        },
         "children": [
-            "flex-layout.row#discount-like",
-            "image#product",
+            "add-to-list-btn",
+            "product-summary-image",
             "product-summary-name",
-            "product-summary-price",
-            "product-summary-buy-button"
+            "product-price",
+            "image#delivery-prom",
+            "add-to-cart-button"
         ]
     },
     "list-context.product-list#second-slider": {
         "title": "Container list to products",
         "blocks": [
+            "product-summary.shelf#second--slider",
+            "product-summary.shelf#second--slider",
+            "product-summary.shelf#second--slider",
+            "product-summary.shelf#second--slider",
+            "product-summary.shelf#second--slider",
+            "product-summary.shelf#second--slider",
+            "product-summary.shelf#second--slider",
+            "product-summary.shelf#second--slider",
+            "product-summary.shelf#second--slider",
             "product-summary.shelf#second--slider"
         ],
         "children": [
@@ -43,48 +56,41 @@
             ]
         }
     },
-    "image#product": {
-        "props": {
-            "src": "/arquivos/desktop-computer-image-product-summary-slider.png",
-            "alt": "summary-image"
+    "add-to-list-btn": {
+        "props":{
+            "blockClass": "wish-list-icon",
+            "textAlignment": "right"
         }
     },
-    "flex-layout.row#discount-like": {
-        "title": "Container discount and like",
+    "product-summary-image": {
+        "title": "Image to product summary",
         "props": {
-            "blockClass": "row-discount-like"
-        },
-        "children": [
-            "rich-text#text_discount",
-            "image#like"
-        ]
-    },
-
-    "rich-text#text_discount": {
-        "title": "product percent off",
-        "props": {
-            "text": "20% OFF",
-            "blockClass": "text-discount"
-        }
-    },
-    "image#like": {
-        "title": "like to product",
-        "props": {
-            "src": "/arquivos/Like.png",
-            "blockClass": "like-image"
+            "showBadge": true,
+            "height": 220,
+            "blockClass": [
+                "summary-image"
+            ]
         }
     },
     "product-summary-name": {
         "props": {
+            "font": "action--small",
             "blockClass": [
                 "summary-name"
             ]
         }
     },
-    "product-summary-buy-button": {
+    "image#delivery-prom": {
+        "title": "Free delivery promotion text",
+        "props": {
+            "src": "/arquivos/Envio-gratis.png",
+            "blockClass": "delivery-prom"
+        }
+    },
+    "add-to-cart-button": {
         "props": {
             "isOneClickBuy": false,
-            "buyButtonText": "Comprar",
+            "text": "Comprar",
             "blockClass": [
                 "summary-button"
             ]

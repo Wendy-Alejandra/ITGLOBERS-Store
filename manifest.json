@@ -33,6 +33,7 @@
     "vtex.rich-text": "0.x",
     "vtex.store-drawer": "0.x",
     "vtex.locale-switcher": "0.x",
+    "vtex.product-price": "1.x",
     "vtex.product-quantity": "1.x",
     "vtex.product-identifier": "0.x",
     "vtex.product-specification-badges": "0.x",
@@ -46,7 +47,8 @@
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
-    "vtex.add-to-cart-button": "0.x"
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.wish-list": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
