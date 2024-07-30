@@ -32,8 +32,11 @@
     justify-content: center;
     margin: 0 2px;
 }
-.paginationDotsContainer--custom_slider1, .paginationDotsContainer--custom_product__slider1 {
+.paginationDotsContainer--custom_slider1 {
     bottom: -44px;
+}
+.paginationDotsContainer--slider--products {
+    bottom: -34px;
 }
 .flexRow--global__row__summary {
     margin-bottom: 3rem;

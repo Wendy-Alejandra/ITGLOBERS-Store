@@ -17,6 +17,7 @@
             "add-to-list-btn",
             "product-summary-image",
             "product-summary-name",
+            "product-summary-space",
             "product-price",
             "image#delivery-prom",
             "add-to-cart-button"
@@ -25,15 +26,6 @@
     "list-context.product-list#second-slider": {
         "title": "Container list to products",
         "blocks": [
-            "product-summary.shelf#second--slider",
-            "product-summary.shelf#second--slider",
-            "product-summary.shelf#second--slider",
-            "product-summary.shelf#second--slider",
-            "product-summary.shelf#second--slider",
-            "product-summary.shelf#second--slider",
-            "product-summary.shelf#second--slider",
-            "product-summary.shelf#second--slider",
-            "product-summary.shelf#second--slider",
             "product-summary.shelf#second--slider"
         ],
         "children": [
@@ -46,6 +38,7 @@
     "slider-layout#global__slider--products": {
         "title": "Slider structure to products summary",
         "props": {
+            "navigationStep": 1,
             "itemsPerPage": {
                 "desktop": 5,
                 "tablet": 3,
@@ -74,7 +67,7 @@
     },
     "product-summary-name": {
         "props": {
-            "font": "action--small",
+            "font": "small",
             "blockClass": [
                 "summary-name"
             ]
