@@ -7,6 +7,6 @@
     width: 81px;
     height: 17px;
 }
-.sellingPrice {
+.sellingPrice, .listPrice {
     text-align: left;
 }
