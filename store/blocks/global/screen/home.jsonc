@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+      "modal-trigger#example",
       "responsive-layout.desktop#home__section--1",
       "responsive-layout.mobile#home__section--1",
       "flex-layout.row#watches__banner--home",
