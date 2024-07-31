@@ -1,6 +1,8 @@
 {
   "store.home": { 
     "blocks": [
+      "responsive-layout.desktop#home__section--1",
+      "responsive-layout.mobile#home__section--1",
       "flex-layout.row#watches__banner--home",
       "flex-layout.row#amazing__text--global",
       "flex-layout.row#slider",
