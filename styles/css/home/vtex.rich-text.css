@@ -9,3 +9,16 @@
 .paragraph--text--description {
     margin: 0.86rem;
 }
+.link--verprecio--button {
+    text-decoration: none;
+    color: #FFFFFF;
+    
+    padding: 0 1rem;
+    width: 134px;
+    height: 43px;
+}
+.wrapper--verprecio--button {
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: black;
+}

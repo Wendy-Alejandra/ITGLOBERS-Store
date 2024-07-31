@@ -155,13 +155,17 @@
           ]
         },
         "children": [
-          "image#button--card"
+          "rich-text#button--card"
         ]
       },
-      "image#button--card": {
+      "rich-text#button--card": {
         "title": "Text ver precio button",
         "props": {
-          "src": "/arquivos/button-verprecio.png",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "[Ver precio ->](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+          "textColor": "c-on-emphasis",
+          "font": "mini",
           "blockClass": [
             "verprecio--button"
           ]
