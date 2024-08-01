@@ -14,7 +14,7 @@
             "blockClass": "product-shelf"
         },
         "children": [
-            "add-to-list-btn",
+            "flex-layout.row#global__main--summary",
             "product-summary-image",
             "product-summary-name",
             "product-summary-space",
@@ -49,16 +49,30 @@
             ]
         }
     },
+    "flex-layout.row#global__main--summary": {
+        "title": "Product summary wish list and discount row",
+        "children": [
+            "product-price-savings",
+            "add-to-list-btn"
+            
+        ]
+    },
     "add-to-list-btn": {
         "props":{
             "blockClass": "wish-list-icon",
             "textAlignment": "right"
         }
     },
+    "product-price-savings": {
+        "props": {
+             "blockClass": "savings__summary",
+             "message": "{savingsPercentage} OFF"
+        }
+    },
     "product-summary-image": {
         "title": "Image to product summary",
         "props": {
-            "showBadge": true,
+            "showBadge": false,
             "height": 220,
             "blockClass": [
                 "summary-image"
