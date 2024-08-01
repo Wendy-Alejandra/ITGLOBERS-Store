@@ -5,4 +5,6 @@
 }
 .wishlistIconContainer--wish-list-icon :global(.vtex-button) {
     border: 1px solid #1D2734;
+    height: 32px;
+
 }

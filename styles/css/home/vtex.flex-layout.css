@@ -7,3 +7,7 @@
     margin: 0.5rem;
     border-radius: 12px;
 }
+.flexRowContent--global__row__summary {
+    display: flex;
+    justify-content: space-around;
+}
