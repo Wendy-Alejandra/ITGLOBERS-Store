@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/*Lines active before dot properties*/
 .paginationDot--isActive::before {
     content: "";
     position: absolute;
@@ -17,10 +18,10 @@
     height: 2px;
     content: "";
     font-size: 0;
-    background-color: rgba(0,0,0,.4);
+    background-color: #1d2734;
     position: absolute;
 }
-
+/*Dot properties*/
 .paginationDot {
     width: 44px !important;
     height: 40px !important;
@@ -31,15 +32,6 @@
     align-items: center;
     justify-content: center;
     margin: 0 2px;
-}
-/*Added for active dotted lines but works only for one not for all visited*/
-.paginationDot--isActive::after {
-    width: 44px;
-    height: 2px;
-    content: "";
-    font-size: 0;
-    background-color: #1d2734;
-    position: absolute;
 }
 .paginationDotsContainer--custom_slider1 {
     bottom: -44px;
