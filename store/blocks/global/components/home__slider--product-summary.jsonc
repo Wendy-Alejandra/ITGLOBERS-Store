@@ -55,14 +55,10 @@
             "blockClass":"global__main__summary",
             "horizontalAlign": "between",
             "colSizing": "auto"
-            // "preventHorizontalStretch": true
-            /*"preventVerticalStretch": true*/
-
         },
         "children": [
             "product-price-savings",
             "add-to-list-btn"
-            
         ]
     },
     "add-to-list-btn": {
