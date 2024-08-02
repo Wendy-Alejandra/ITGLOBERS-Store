@@ -52,8 +52,10 @@
     "flex-layout.row#global__main--summary": {
         "title": "Product summary wish list and discount row",
         "props":{
-            "blockClass":"global__row__summary",
-            "preventHorizontalStretch": true
+            "blockClass":"global__main__summary",
+            "horizontalAlign": "between",
+            "colSizing": "auto"
+            // "preventHorizontalStretch": true
             /*"preventVerticalStretch": true*/
 
         },

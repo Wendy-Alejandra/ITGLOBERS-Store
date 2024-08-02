@@ -7,8 +7,6 @@
     margin: 0.5rem;
     border-radius: 12px;
 }
-.flexRowContent--global__row__summary {
+.flexRowContent--global__main__summary {
     margin-bottom: 6px;
-    display: flex;
-    justify-content: space-around;
 }
