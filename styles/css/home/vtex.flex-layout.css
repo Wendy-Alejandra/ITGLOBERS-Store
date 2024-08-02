@@ -8,6 +8,7 @@
     border-radius: 12px;
 }
 .flexRowContent--global__row__summary {
+    margin-bottom: 6px;
     display: flex;
     justify-content: space-around;
 }

@@ -53,8 +53,9 @@
         "title": "Product summary wish list and discount row",
         "props":{
             "blockClass":"global__row__summary",
-            "preventHorizontalStretch": true,
-            "preventVerticalStretch": true
+            "preventHorizontalStretch": true
+            /*"preventVerticalStretch": true*/
+
         },
         "children": [
             "product-price-savings",
@@ -71,7 +72,8 @@
         "props": {
              "blockClass": "savings__summary",
              "message": "{savingsPercentage} OFF",
-             "font":"mini"
+             "font":"small",
+             "alwaysShow": true
         }
     },
     "product-summary-image": {
