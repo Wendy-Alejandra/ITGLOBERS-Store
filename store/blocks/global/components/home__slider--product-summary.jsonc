@@ -62,11 +62,13 @@
         ]
     },
     "add-to-list-btn": {
+        "title": "Product summary wish list button",
         "props":{
             "blockClass": "wish-list-icon"
         }
     },
     "product-price-savings": {
+        "title": "Product summary price savings",
         "props": {
              "blockClass": "savings__summary",
              "message": "{savingsPercentage} OFF",
@@ -86,12 +88,18 @@
         }
     },
     "product-summary-name": {
+        "title": "Product summary name",
         "props": {
             "font": "small",
             "blockClass": [
                 "summary-name"
             ]
         }
+    },
+    "product-price": {
+        "title": "Product price",
+        "blockClass": "summary-price"
+
     },
     "image#delivery-prom": {
         "title": "Free delivery promotion text",
@@ -101,6 +109,7 @@
         }
     },
     "add-to-cart-button": {
+        "title": "Product summary add to cart button",
         "props": {
             "isOneClickBuy": false,
             "text": "Comprar",
