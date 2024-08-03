@@ -98,8 +98,9 @@
     },
     "product-price": {
         "title": "Product price",
-        "blockClass": "summary-price"
-
+        "props": {
+            "blockClass": "summary-price"
+        }
     },
     "image#delivery-prom": {
         "title": "Free delivery promotion text",
