@@ -7,3 +7,9 @@
     background-color: rgba(0,0,0,.4);
     position: absolute;
 }
+
+@media screen and (max-width: 1024px) {
+    :global(.vtex-slider-layout-0-x-paginationDot--isActive~.vtex-slider-layout-0-x-paginationDot:after) {
+        width: 16px;
+    }
+}

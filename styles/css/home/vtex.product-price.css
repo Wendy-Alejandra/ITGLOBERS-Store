@@ -8,3 +8,11 @@
     color: #ffffff;
     background-color: #1D2734;
 }
+
+@media screen and (max-width: 1024px) {
+    .savings--savings__summary {
+        font-size: 12px;
+        width: 50px !important;
+        height: 25px !important;
+    }
+}

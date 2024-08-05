@@ -1,8 +1,8 @@
 {
-    "flex-layout.row#global__product-summary": {
-        "title": "Global row summary to products",
+    "flex-layout.row#mobile__product-summary": {
+        "title": "Mobile row summary to products",
         "props": {
-            "blockClass": "global__row__summary"
+            "blockClass": "mobile__row__summary"
         },
         "children": [
             "list-context.product-list#second-slider"
