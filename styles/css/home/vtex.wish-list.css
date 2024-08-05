@@ -6,3 +6,18 @@
 .wishlistIconContainer--wish-list-icon :global(.vtex-button) {
     border: 1px solid #1D2734;
 }
+
+@media screen and (max-width: 1024px) {
+    .wishlistIconContainer--wish-list-icon :global(.vtex-button) {
+        display: flex;
+        width: 33px !important;
+        /* height: 25px !important; */
+    }
+    /* .wishlistIconContainer--wish-list-icon :global(.vtex-button__label) {
+        padding: 0 !important;
+    }
+    .vtex-wish-list-1-x-wishlistIcon--wish-list-icon {
+        width: 16px !important;
+        padding: 0 !important;
+    } */
+}

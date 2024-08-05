@@ -1,0 +1,123 @@
+{
+    "flex-layout.row#mobile__product-summary": {
+        "title": "Mobile row summary to products",
+        "props": {
+            "blockClass": "mobile__row__summary"
+        },
+        "children": [
+            "list-context.product-list#second-slider"
+        ]
+    },
+    "product-summary.shelf#second--slider": {
+        "title": "Structure to slider products summary",
+        "props":{
+            "blockClass": "product-shelf"
+        },
+        "children": [
+            "flex-layout.row#global__main--summary",
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-space",
+            "product-price",
+            "image#delivery-prom",
+            "add-to-cart-button"
+        ]
+    },
+    "list-context.product-list#second-slider": {
+        "title": "Container list to products",
+        "blocks": [
+            "product-summary.shelf#second--slider"
+        ],
+        "children": [
+            "slider-layout#global__slider--products"
+        ],
+        "props": {
+            "blockClass": "second-slider"
+        }
+    },
+    "slider-layout#global__slider--products": {
+        "title": "Slider structure to products summary",
+        "props": {
+            "showNavigationArrows": "desktopOnly",
+            "navigationStep": 1,
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 2
+            },
+            "blockClass": [
+                "slider--products"
+            ]
+        }
+    },
+    "flex-layout.row#global__main--summary": {
+        "title": "Product summary wish list and discount row",
+        "props":{
+            "blockClass":"global__main__summary",
+            "horizontalAlign": "between",
+            "colSizing": "auto"
+        },
+        "children": [
+            "product-price-savings",
+            "add-to-list-btn"
+        ]
+    },
+    "add-to-list-btn": {
+        "title": "Product summary wish list button",
+        "props":{
+            "blockClass": "wish-list-icon"
+        }
+    },
+    "product-price-savings": {
+        "title": "Product summary price savings",
+        "props": {
+             "blockClass": "savings__summary",
+             "message": "{savingsPercentage} OFF",
+             "font":"small",
+             "alwaysShow": true
+        }
+    },
+    "product-summary-image": {
+        "title": "Image to product summary",
+        "props": {
+            "showBadge": false,
+            "height": 220,
+            "displayMode": "inline",
+            "blockClass": [
+                "summary-image"
+            ]
+        }
+    },
+    "product-summary-name": {
+        "title": "Product summary name",
+        "props": {
+            "font": "small",
+            "blockClass": [
+                "summary-name"
+            ]
+        }
+    },
+    "product-price": {
+        "title": "Product price",
+        "props": {
+            "blockClass": "summary-price"
+        }
+    },
+    "image#delivery-prom": {
+        "title": "Free delivery promotion text",
+        "props": {
+            "src": "/arquivos/Envio-gratis.png",
+            "blockClass": "delivery-prom"
+        }
+    },
+    "add-to-cart-button": {
+        "title": "Product summary add to cart button",
+        "props": {
+            "isOneClickBuy": false,
+            "text": "Comprar",
+            "blockClass": [
+                "summary-button"
+            ]
+        }
+    }
+}
