@@ -4,3 +4,12 @@
     max-height: 3.5em;
     color: rgba(0,0,0,.6);
 }
+
+@media screen and (max-width: 1024px) {
+    .brandName {
+        font-size: 12px !important;
+    }
+    .price_sellingPrice {
+        font-size: 20px !important;
+    }
+}
