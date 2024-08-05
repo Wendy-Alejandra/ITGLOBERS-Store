@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#mobile__watches__banner--home": {
+      "title": "Mobile Banner home",
+      "children": [
+        "image#mobile__image__banner"
+      ],
+      "props": {
+        "fullWidth": true,
+        "blockClass": "mobile__watches__banner"
+      }
+    },
+    "image#mobile__image__banner": {
+      "title": "Image banner home",
+      "props": {
+        "width": "100%",
+        "link": {
+          "url": "https://developers.vtex.com/docs/apps/vtex.flex-layout",
+          "noFollow": false,
+          "openNewTab": true
+        },
+        "src": "/arquivos/Hero-Mobile-banner.png",
+        "blockClass":[
+          "image__banner"
+        ]
+      }
+    }
+}
