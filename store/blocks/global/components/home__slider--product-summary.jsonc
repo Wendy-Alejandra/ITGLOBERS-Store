@@ -38,11 +38,12 @@
     "slider-layout#global__slider--products": {
         "title": "Slider structure to products summary",
         "props": {
+            "showNavigationArrows": "desktopOnly",
             "navigationStep": 1,
             "itemsPerPage": {
                 "desktop": 5,
-                "tablet": 3,
-                "phone": 1
+                "tablet": 2,
+                "phone": 2
             },
             "blockClass": [
                 "slider--products"

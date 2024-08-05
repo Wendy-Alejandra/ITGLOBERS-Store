@@ -14,6 +14,7 @@
     "slider-layout#screen-images": {
       "props": {
         "fullWidth": false,
+        "navigationStep": 1,
         "itemsPerPage": {
           "desktop": 3,
           "tablet": 1,
@@ -25,24 +26,6 @@
         "blockClass": "custom_slider1"
       },
     "children": [
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
-      "flex-layout.col#card",
       "flex-layout.col#card",
       "flex-layout.col#card",
       "flex-layout.col#card",
