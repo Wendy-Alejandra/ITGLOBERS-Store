@@ -39,3 +39,37 @@
 .paginationDotsContainer--slider--products {
     bottom: -34px;
 }
+
+@media screen and (max-width: 1024px){
+    .sliderLayoutContainer {
+        margin: auto;
+        padding: auto;
+    }
+
+    .slideChildrenContainer {
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .slide {
+        margin: auto;
+    }
+
+    .paginationDot--isActive::before {
+        width: 16px;
+        height: 12px;
+    }
+    .paginationDot::after {
+        width: 16px;
+    }
+    .paginationDot {
+        width: 16px !important;
+        height: 12px !important;
+    }
+    .paginationDotsContainer--custom_slider1 {
+        bottom: -4px;
+    }
+    .paginationDotsContainer--slider--products {
+        bottom: 2px;
+    }
+}
