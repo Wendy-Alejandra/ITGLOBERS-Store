@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/*Lines active before dot properties*/
 .paginationDot--isActive::before {
     content: "";
     position: absolute;
@@ -20,7 +21,7 @@
     background-color: #1d2734;
     position: absolute;
 }
-
+/*Dot properties*/
 .paginationDot {
     width: 44px !important;
     height: 40px !important;

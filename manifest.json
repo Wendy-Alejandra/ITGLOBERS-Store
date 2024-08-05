@@ -28,6 +28,7 @@
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
+    "vtex.modal-layout": "0.x",
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",
     "vtex.rich-text": "0.x",
@@ -47,7 +48,8 @@
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
-    "vtex.add-to-cart-button": "0.x"
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.product-highlights": "2.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

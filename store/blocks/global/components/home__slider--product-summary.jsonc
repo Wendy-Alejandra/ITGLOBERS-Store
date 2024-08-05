@@ -14,7 +14,7 @@
             "blockClass": "product-shelf"
         },
         "children": [
-            "add-to-list-btn",
+            "flex-layout.row#global__main--summary",
             "product-summary-image",
             "product-summary-name",
             "product-summary-space",
@@ -49,28 +49,57 @@
             ]
         }
     },
-    "add-to-list-btn": {
+    "flex-layout.row#global__main--summary": {
+        "title": "Product summary wish list and discount row",
         "props":{
-            "blockClass": "wish-list-icon",
-            "textAlignment": "right"
+            "blockClass":"global__main__summary",
+            "horizontalAlign": "between",
+            "colSizing": "auto"
+        },
+        "children": [
+            "product-price-savings",
+            "add-to-list-btn"
+        ]
+    },
+    "add-to-list-btn": {
+        "title": "Product summary wish list button",
+        "props":{
+            "blockClass": "wish-list-icon"
+        }
+    },
+    "product-price-savings": {
+        "title": "Product summary price savings",
+        "props": {
+             "blockClass": "savings__summary",
+             "message": "{savingsPercentage} OFF",
+             "font":"small",
+             "alwaysShow": true
         }
     },
     "product-summary-image": {
         "title": "Image to product summary",
         "props": {
-            "showBadge": true,
+            "showBadge": false,
             "height": 220,
+            "displayMode": "inline",
             "blockClass": [
                 "summary-image"
             ]
         }
     },
     "product-summary-name": {
+        "title": "Product summary name",
         "props": {
             "font": "small",
             "blockClass": [
                 "summary-name"
             ]
+        }
+    },
+    "product-price": {
+        "title": "Product price",
+        "props": {
+            "blockClass": "summary-price"
         }
     },
     "image#delivery-prom": {
@@ -81,6 +110,7 @@
         }
     },
     "add-to-cart-button": {
+        "title": "Product summary add to cart button",
         "props": {
             "isOneClickBuy": false,
             "text": "Comprar",

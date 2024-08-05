@@ -1,0 +1,6 @@
+.productNameContainer {
+    text-align: left;
+    overflow: hidden;
+    max-height: 3.5em;
+    color: rgba(0,0,0,.6);
+}

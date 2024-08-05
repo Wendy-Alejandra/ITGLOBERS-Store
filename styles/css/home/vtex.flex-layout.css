@@ -7,3 +7,6 @@
     margin: 0.5rem;
     border-radius: 12px;
 }
+.flexRowContent--global__main__summary {
+    margin-bottom: 6px;
+}
