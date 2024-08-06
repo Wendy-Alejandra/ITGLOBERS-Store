@@ -8,6 +8,18 @@
             "list-context.product-list#second-slider"
         ]
     },
+    "list-context.product-list#second-slider": {
+        "title": "Container list to products",
+        "blocks": [
+            "product-summary.shelf#second--slider"
+        ],
+        "children": [
+            "slider-layout#global__slider--products"
+        ],
+        "props": {
+            "blockClass": "second-slider"
+        }
+    },
     "product-summary.shelf#second--slider": {
         "title": "Structure to slider products summary",
         "props":{
@@ -22,18 +34,6 @@
             "image#delivery-prom",
             "add-to-cart-button"
         ]
-    },
-    "list-context.product-list#second-slider": {
-        "title": "Container list to products",
-        "blocks": [
-            "product-summary.shelf#second--slider"
-        ],
-        "children": [
-            "slider-layout#global__slider--products"
-        ],
-        "props": {
-            "blockClass": "second-slider"
-        }
     },
     "slider-layout#global__slider--products": {
         "title": "Slider structure to products summary",
