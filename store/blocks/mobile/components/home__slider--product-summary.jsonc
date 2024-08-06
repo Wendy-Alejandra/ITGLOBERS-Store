@@ -42,7 +42,7 @@
             "navigationStep": 1,
             "itemsPerPage": {
                 "desktop": 5,
-                "tablet": 2,
+                "tablet": 4,
                 "phone": 2
             },
             "blockClass": [

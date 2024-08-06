@@ -12,6 +12,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .flexCol--card {
+        height: 420px !important;
+    }
     .flexRowContent--global__main__summary {
         display: flex; /*To show price-savings and wishlist items inline*/
     }
