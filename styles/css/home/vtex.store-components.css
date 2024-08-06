@@ -10,7 +10,7 @@
 .sellingPrice, .listPrice {
     text-align: left;
 }
-.currencyCode {
+.currencyCode, .price_listPriceLabel--summary-price, .sellingPriceLabel {
     display: none;
 }
 .currencyLiteral::before {

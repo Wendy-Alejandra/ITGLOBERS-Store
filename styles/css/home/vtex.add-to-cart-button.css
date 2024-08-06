@@ -7,3 +7,9 @@
     color: #1d2734;
     text-transform: lowercase;
 }
+
+@media screen and (max-width: 1024px) {
+    .buttonText--summary-button {
+        font-size: 10px;
+    }
+}
