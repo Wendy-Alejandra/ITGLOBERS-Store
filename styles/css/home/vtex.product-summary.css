@@ -6,6 +6,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .element--product-shelf {
+        width: 160px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
     .brandName {
         font-size: 12px !important;
     }
