@@ -81,7 +81,7 @@
         "title": "Image to product summary",
         "props": {
             "showBadge": false,
-            "height": 220,
+            "height": 180,
             "displayMode": "inline",
             "blockClass": [
                 "summary-image"
