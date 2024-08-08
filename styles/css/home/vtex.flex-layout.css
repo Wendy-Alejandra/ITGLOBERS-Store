@@ -8,6 +8,20 @@
 }
 .flexRowContent--global__main__summary {
     margin-bottom: 6px;
+    padding-right: 8px;
+    margin-bottom: 6px;
+}
+.flexRowContent--global__main__summary :global(.vtex-button) {
+    border: 1px solid #1D2734;
+    height: 32px;
+    border-radius: 4px;
+    padding: 8px 12px 6px 12px;
+    background-color: #F0F0F2;
+    right: 0;
+    top: 0;
+}
+.flexRowContent--global__main__summary :global(.vtex-button__label) {
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,5 +30,14 @@
     }
     .flexRowContent--global__main__summary {
         display: flex; /*To show price-savings and wishlist items inline*/
+    }
+    .flexRowContent--global__main__summary :global(.vtex-button) {
+        border: 1px solid #1D2734;
+        height: 30px;
+        border-radius: 4px;
+        padding: 6px 12px 4px 10px;
+        background-color: #F0F0F2;
+        right: 0;
+        top: 0;
     }
 }
