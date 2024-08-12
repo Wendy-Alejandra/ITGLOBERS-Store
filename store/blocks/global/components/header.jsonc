@@ -3,13 +3,13 @@
     "props": {
       "width": "grow"
     }
-  },
-  "logo": {
+  }
+  /*"logo": {
     "props": {
       "title": "Logo",
       "href": "/",
       "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
       "width": "80"
     }
-  }
+  }*/
 }

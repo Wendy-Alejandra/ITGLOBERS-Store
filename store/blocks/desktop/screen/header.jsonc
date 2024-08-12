@@ -1,5 +1,9 @@
 {
   "header-layout.desktop": {
-    "children": ["sticky-layout#desktop"]
+    "title": "Header layout home desktop with row line hamburguer and minicart menu and row line icons menu",
+    "children": [
+      "header-row#header__top__menu--desktop"
+      /*"header-row#header__bottom__menu--desktop"*/
+    ]
   }
 }

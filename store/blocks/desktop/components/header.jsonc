@@ -1,31 +1,55 @@
 {
-  "sticky-layout#desktop": {
+  "header-row#header__top__menu--desktop": {
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": "header__top__menu"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": [
+      "flex-layout.row#header__section__1--desktop",
+      "flex-layout.row#header__section__2--desktop"
+    ]
   },
-  "flex-layout.row#desktop": {
+  "flex-layout.row#header__section__1--desktop": {
     "props": {
-      "horizontalAlign": "center",
+      "horizontalAlign": "left",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
+      "flex-layout.col#header__drawer--desktop",
+      "flex-layout.col#header__logo--desktop",
+      "flex-layout.col#header__searchBar-desktop"
+    ]
+  },
+  "flex-layout.col#header__drawer--desktop": {
+    "title": "Header hamburguer drawer menu"
+  },
+  "flex-layout.col#header__logo--desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "col__header__logo--desktop"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "ITG Logo",
+      "href": "/",
+      "url": "/arquivos/icon_Black.png",
+      "width": "32",
+      "blockClass": "logo__itg--desktop"
+    }
+  },
+  "flex-layout.col#header__searchBar-desktop": {
+    "title": "Header column search-bar desktop"
+  },
+  "flex-layout.row#header__section__2--desktop": {
+    "children": [
       "login",
       "minicart.v2"
     ]
-  },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo"]
   }
 }
