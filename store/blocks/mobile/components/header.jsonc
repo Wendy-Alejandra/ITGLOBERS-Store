@@ -10,8 +10,9 @@
         "drawer",
         "logo",
         "flex-layout.col#spacer",
-        "login",
-        "minicart.v2"
+        "minicart.v2",
+        "login"
+        
       ],
       "props": {
         "blockClass": "main-header-mobile",

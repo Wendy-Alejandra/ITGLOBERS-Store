@@ -66,8 +66,8 @@
   },
   "flex-layout.row#header__section__2--desktop": {
     "children": [
-      "login",
-      "minicart.v2"
+      "minicart.v2",
+      "login"      
     ]
   }
 }
