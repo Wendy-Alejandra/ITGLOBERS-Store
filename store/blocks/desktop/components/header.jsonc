@@ -60,6 +60,7 @@
     "title": "Header search-bar desktop",
     "props": {
       "placeholder": "Search products...",
+      "font": "mini",
       "blockClass": "header__searchBar-desktop"
     }
   },
