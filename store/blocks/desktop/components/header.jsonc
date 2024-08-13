@@ -1,5 +1,6 @@
 {
   "header-row#header__top__menu--desktop": {
+    "title": "Header top menu for desktop devices",
     "props": {
       "blockClass": "header__top__menu"
     },
@@ -23,7 +24,8 @@
     ]
   },
   "flex-layout.col#header__drawer--desktop": {
-    "title": "Header hamburguer drawer menu"
+    "title": "Header hamburguer drawer menu",
+    "children": ["drawer"] /*Automatically adds a hamburguer icon menu*/
   },
   "flex-layout.col#header__logo--desktop": {
     "props": {
@@ -31,10 +33,10 @@
       "blockClass": "col__header__logo--desktop"
     },
     "children": [
-      "logo#desktop"
+      "logo"
     ]
   },
-  "logo#desktop": {
+  "logo": {
     "props": {
       "title": "ITG Logo",
       "href": "/",
@@ -44,7 +46,8 @@
     }
   },
   "flex-layout.col#header__searchBar-desktop": {
-    "title": "Header column search-bar desktop"
+    "title": "Header column search-bar desktop",
+    "children":["search-bar"] /*Automatically adds a search bar*/
   },
   "flex-layout.row#header__section__2--desktop": {
     "children": [
