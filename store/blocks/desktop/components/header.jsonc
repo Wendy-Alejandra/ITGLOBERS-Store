@@ -20,11 +20,14 @@
     "children": [
       "flex-layout.col#header__drawer--desktop",
       "flex-layout.col#header__logo--desktop",
-      "flex-layout.col#header__searchBar-desktop"
+      "flex-layout.col#header__searchBar--desktop"
     ]
   },
   "flex-layout.col#header__drawer--desktop": {
     "title": "Header hamburguer drawer menu",
+    "props": {
+      "blockClass": "col__header__drawer--desktop"
+    },
     "children": ["drawer"] /*Automatically adds a hamburguer icon menu*/
   },
   "flex-layout.col#header__logo--desktop": {
@@ -45,9 +48,20 @@
       "blockClass": "logo__itg--desktop"
     }
   },
-  "flex-layout.col#header__searchBar-desktop": {
+  "flex-layout.col#header__searchBar--desktop": {
     "title": "Header column search-bar desktop",
+    "props": {
+      "placeholder": "Search products...",
+      "blockClass": "col__header__searchBar-desktop"
+    },
     "children":["search-bar"] /*Automatically adds a search bar*/
+  },
+  "search-bar": {
+    "title": "Header search-bar desktop",
+    "props": {
+      "placeholder": "Search products...",
+      "blockClass": "header__searchBar-desktop"
+    }
   },
   "flex-layout.row#header__section__2--desktop": {
     "children": [
