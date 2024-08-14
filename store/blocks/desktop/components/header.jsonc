@@ -69,5 +69,17 @@
       "minicart.v2",
       "login"      
     ]
+  },
+  "login": {
+    "title": "Login header button",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Login",
+      "blockClass": "header__login"
+    }
   }
 }
