@@ -1,6 +1,6 @@
 /*Styles the search-bar border*/
 .flexCol--col__header__searchBar-desktop :global(.vtex-input-prefix__group) {
-    border-style: solid;
+    border-style : solid;
     border-radius: 30px;
-    border-color: #F5F4F6;
+    border-color : #F5F4F6;
 }
