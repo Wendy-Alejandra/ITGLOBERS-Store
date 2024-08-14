@@ -6,6 +6,7 @@
     },
     "children": [
       "flex-layout.row#header__section__1--desktop",
+      "vtex.menu@2.x:menu#websites",
       "flex-layout.row#header__section__2--desktop"
     ]
   },
@@ -65,6 +66,7 @@
     }
   },
   "flex-layout.row#header__section__2--desktop": {
+    "title": "Second section row of top header line",
     "children": [
       "minicart.v2",
       "login"      
