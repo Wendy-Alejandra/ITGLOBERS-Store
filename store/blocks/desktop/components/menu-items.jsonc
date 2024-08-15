@@ -1,7 +1,6 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "title": "Top header menu",
-    "blockClass": "menu__items__websites",
     "props": {
       "items": [
         {
