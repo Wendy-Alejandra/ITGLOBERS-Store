@@ -1,13 +1,17 @@
 .menuContainerNav {
-    padding-left: 58px;
+    padding-left : 58px;
     padding-right: 40px;
 }
-.styledLinkContainer  {
+
+.styledLinkContainer {
     margin: 6px 6px;
 }
+
 .styledLinkContent {
     font-size: 12px;
 }
+
 .vtex-menu-2-x-styledLinkContainer--menu-item-tendencias {
-    text-decoration: underline !important; /*Does not apply yet the underline of Temndencias de ITGlobers item*/
+    text-decoration: underline !important;
+    /*Does not apply yet the underline of Temndencias de ITGlobers item*/
 }

@@ -1,53 +1,57 @@
 .slideChildrenContainer--custom__slider1 {
-    margin: 0;
+    margin : 0;
     padding: 0;
 }
+
 /*Lines active before dot properties*/
 .paginationDot--isActive::before {
-    content: "";
-    position: absolute;
-    right: -8px;
-    width: 16px;
-    height: 16px;
+    content         : "";
+    position        : absolute;
+    right           : -8px;
+    width           : 16px;
+    height          : 16px;
     background-color: #1d2734;
-    border-radius: 50%;
+    border-radius   : 50%;
 }
 
 .paginationDot::after {
-    width: 44px;
-    height: 2px;
-    content: "";
-    font-size: 0;
+    width           : 44px;
+    height          : 2px;
+    content         : "";
+    font-size       : 0;
     background-color: #1d2734;
-    position: absolute;
+    position        : absolute;
 }
+
 /*Dot properties*/
 .paginationDot {
-    width: 44px !important;
-    height: 40px !important;
-    border-radius: 0;
+    width           : 44px !important;
+    height          : 40px !important;
+    border-radius   : 0;
     background-color: transparent;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 2px;
+    position        : relative;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    margin          : 0 2px;
 }
+
 .paginationDotsContainer--custom_slider1 {
     bottom: -44px;
 }
+
 .paginationDotsContainer--slider--products {
     bottom: -34px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .sliderLayoutContainer {
-        margin: auto;
+        margin : auto;
         padding: auto;
     }
 
     .slideChildrenContainer {
-        margin: auto;
+        margin       : auto;
         margin-bottom: 35px;
     }
 
@@ -56,19 +60,23 @@
     }
 
     .paginationDot--isActive::before {
-        width: 16px;
+        width : 16px;
         height: 12px;
     }
+
     .paginationDot::after {
         width: 16px;
     }
+
     .paginationDot {
-        width: 16px !important;
+        width : 16px !important;
         height: 12px !important;
     }
+
     .paginationDotsContainer--custom_slider1 {
         bottom: -4px;
     }
+
     .paginationDotsContainer--slider--products {
         bottom: 2px;
     }

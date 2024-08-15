@@ -1,18 +1,25 @@
 .imageElement--screen__image--card {
     width: 100%;
 }
+
 .imageElement--delivery-prom {
-    padding-top: 8px;
+    padding-top   : 8px;
     padding-bottom: 12px;
-    width: 81px;
-    height: 17px;
+    width         : 81px;
+    height        : 17px;
 }
-.sellingPrice, .listPrice {
+
+.sellingPrice,
+.listPrice {
     text-align: left;
 }
-.currencyCode, .price_listPriceLabel--summary-price, .sellingPriceLabel {
+
+.currencyCode,
+.price_listPriceLabel--summary-price,
+.sellingPriceLabel {
     display: none;
 }
+
 .currencyLiteral::before {
     content: "$";
 }
