@@ -4,3 +4,8 @@
     border-radius: 30px;
     border-color : #F5F4F6;
 }
+/*---Header Login button alignment*/
+.stretchChildrenWidth {
+    display: flex;
+    align-items: center;
+}
