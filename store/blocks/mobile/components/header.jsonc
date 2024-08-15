@@ -1,27 +1,55 @@
 {
-    "header-layout.mobile": {
-      "children": ["sticky-layout#mobile"]
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "title": "Main header mobile",
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
     },
-    "sticky-layout#mobile": {
-      "children": ["flex-layout.row#mobile"]
+    "children": [
+      "flex-layout.row#header__section__1--mobile",
+      /*---Add search-bar loop only*/
+      "flex-layout.row#header__section__2--mobile"
+    ]
+  },
+  "flex-layout.row#header__section__1--mobile": {
+    "title": "Top header section 2 row mobile",
+    "props": {
+      "blockClass": "header__section__1--mobile"
     },
-    "flex-layout.row#mobile": {
-      "children": [
-        "drawer",
-        "logo",
-        "flex-layout.col#spacer",
-        "minicart.v2",
-        "login"
-        
-      ],
-      "props": {
-        "blockClass": "main-header-mobile",
-        "preventHorizontalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "fullWidth": true
-      }
+    "children": ["drawer", "logo", "flex-layout.col#header__mobile__spacer"]
+  },
+  "flex-layout.row#header__section__2--mobile": {
+    "title": "Top header section 2 row mobile",
+    "props": {
+      "blockClass": "header__section__2--mobile"
     },
-    "drawer": {
-      "children": []
+    "children": ["minicart.v2", "login"]
+  },
+  "drawer#mobile": {
+    "title": "Top header mobile hamburguer icon",
+    "props": {
+      "blockClass": "drawer__mobile"
+    }
+  },
+  "logo#mobile": {
+    "title": "Top header mobile ITG logo",
+    "props": {
+      "blockClass": "logo__itg--mobile"
+    }
+  },
+  "flex-layout.col#header__mobile__spacer": {
+    "title": "Top header mobile spacer",
+    "props": {
+      "blockClass": "header__mobile__spacer",
+      "flexGrow": 1
     }
   }
+}

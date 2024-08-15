@@ -1,4 +1,4 @@
-/*Fills the search-bar icon in the top header*/
+/*---Fills the search-bar icon in the top header---*/
 .autoCompleteOuterContainer--header__searchBar-desktop :global(.vtex-input__suffix) {
     background-color: #F5F4F6;
 }
@@ -7,6 +7,8 @@
     padding-left: 0;
 }
 
-.logoLink--logo__itg--desktop {
-    padding-top: 20px;
+@media screen and (max-width: 1024px) {
+    .logoLink--logo__itg--mobile {
+        padding-top: 0;
+    }
 }

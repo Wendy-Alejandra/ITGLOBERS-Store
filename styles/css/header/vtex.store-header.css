@@ -1,0 +1,5 @@
+/*---Expands header's items to each end---*/
+.headerRowContainer {
+    display        : flex;
+    justify-content: space-between;
+}
