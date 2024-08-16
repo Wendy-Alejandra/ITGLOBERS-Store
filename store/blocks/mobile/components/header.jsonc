@@ -51,5 +51,17 @@
       "blockClass": "header__mobile__spacer",
       "flexGrow": 1
     }
+  },
+  "login": {
+    "title": "Top header login button mobile",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Login",
+      "blockClass": "header__login"
+    }
   }
 }

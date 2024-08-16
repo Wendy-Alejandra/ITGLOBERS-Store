@@ -20,3 +20,10 @@
 .label::first-letter {
     text-transform: capitalize;
 }
+
+@media screen and (max-width: 1024px) {
+    /*Display block shows login label in mobile devices (vtex default was display none)*/
+    .label {
+        display: block;
+    }
+}
