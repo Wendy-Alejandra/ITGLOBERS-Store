@@ -1,15 +1,10 @@
 {
-  "flex-layout.col#spacer": {
+  "header-row#header__bottom__icons__menu--global": {
+    "title": "Bottom header icons menu global",
     "props": {
-      "width": "grow"
-    }
+      "blockClass": "header__bottom__icons__menu"
+    },
+
+    "children": ["vtex.menu@2.x:menu#websites__header__icons"]
   }
-  /*"logo": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
-    }
-  }*/
 }
