@@ -3,3 +3,8 @@
     display        : flex;
     justify-content: space-between;
 }
+.headerRowContentContainer--header__bottom__icons__menu {
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+}

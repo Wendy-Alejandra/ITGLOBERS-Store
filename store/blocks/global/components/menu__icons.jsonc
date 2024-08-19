@@ -64,8 +64,8 @@
             "type": "internal",
             "href": "/deck",
             "noFollow": false,
-            "tagTitle": "pool day",
-            "text": "Pool day"
+            "tagTitle": "poolday",
+            "text": "Poolday"
           },
             "iconProps": {
               "id": "deck",
@@ -82,8 +82,8 @@
             "type": "internal",
             "href": "/hotel",
             "noFollow": false,
-            "tagTitle": "hotel",
-            "text": "Hotel"
+            "tagTitle": "hoteles",
+            "text": "Hoteles"
           },
             "iconProps": {
               "id": "hotel",
@@ -100,8 +100,8 @@
             "type": "internal",
             "href": "/house",
             "noFollow": false,
-            "tagTitle": "house",
-            "text": "Hause"
+            "tagTitle": "casas",
+            "text": "Casas"
           },
             "iconProps": {
               "id": "house",
@@ -118,8 +118,8 @@
             "type": "internal",
             "href": "/hotel",
             "noFollow": false,
-            "tagTitle": "hotel",
-            "text": "Hotel"
+            "tagTitle": "hoteles",
+            "text": "Hoteles"
           },
             "iconProps": {
               "id": "hotel",
@@ -136,8 +136,8 @@
             "type": "internal",
             "href": "/spa",
             "noFollow": false,
-            "tagTitle": "spa",
-            "text": "Spa"
+            "tagTitle": "naturales",
+            "text": "Naturales"
           },
             "iconProps": {
               "id": "spa",
@@ -154,8 +154,8 @@
             "type": "internal",
             "href": "/checkroom",
             "noFollow": false,
-            "tagTitle": "checkroom",
-            "text": "Checkroom"
+            "tagTitle": "closet",
+            "text": "Closet"
           },
             "iconProps": {
               "id": "checkroom",
@@ -172,8 +172,8 @@
             "type": "internal",
             "href": "/beach",
             "noFollow": false,
-            "tagTitle": "beach",
-            "text": "Beach"
+            "tagTitle": "playas",
+            "text": "Playas"
           },
             "iconProps": {
               "id": "beach",
@@ -190,8 +190,8 @@
             "type": "internal",
             "href": "/elderly",
             "noFollow": false,
-            "tagTitle": "elderly",
-            "text": "Elderly"
+            "tagTitle": "alpinismo",
+            "text": "Alpinismo"
           },
             "iconProps": {
               "id": "elderly",
@@ -208,11 +208,29 @@
             "type": "internal",
             "href": "/moped",
             "noFollow": false,
-            "tagTitle": "moped",
-            "text": "Moped"
+            "tagTitle": "delivery",
+            "text": "Delivery"
           },
             "iconProps": {
               "id": "moped",
+                "size": 20,
+                "activeClassName": "c-muted-1",
+                "viewBox": "0 0 20 20"
+            }
+        },
+        {
+          "id": "menu-item-sports_bar",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cervezas",
+            "noFollow": false,
+            "tagTitle": "cervezas",
+            "text": "Cervezas"
+          },
+            "iconProps": {
+              "id": "sports_bar",
                 "size": 20,
                 "activeClassName": "c-muted-1",
                 "viewBox": "0 0 20 20"
