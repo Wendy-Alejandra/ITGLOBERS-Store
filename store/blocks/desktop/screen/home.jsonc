@@ -2,7 +2,6 @@
     "responsive-layout.desktop#desktop__home__section--1": {
         "title": "Home section one DESKTOP",
         "children": [
-            "flex-layout.row#home__section--1",
             "flex-layout.row#watches__banner--home",
             "flex-layout.row#amazing__text--global",
             "flex-layout.row#slider",
