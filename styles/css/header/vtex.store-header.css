@@ -3,8 +3,14 @@
     display        : flex;
     justify-content: space-between;
 }
+
+/*---Adds a scroll bar to the icons menu in bottom header to navigate sideways---*/
+.headerStickyRow--header__bottom__icons__menu {
+    overflow: scroll;
+}
+
 .headerRowContentContainer--header__bottom__icons__menu {
-    padding-left: 0;
-    display: flex;
+    padding-left   : 0;
+    display        : flex;
     justify-content: flex-start;
 }

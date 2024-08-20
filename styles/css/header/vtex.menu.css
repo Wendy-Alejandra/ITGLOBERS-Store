@@ -4,10 +4,10 @@
 }
 
 .styledLinkContent {
-    font-size: 12px;
-    display: flex;
+    font-size     : 12px;
+    display       : flex;
     flex-direction: column;
-    align-items: center;
+    align-items   : center;
 }
 
 .styledLinkContainer--header__top__menu {
@@ -18,8 +18,8 @@
     padding-left: 0;
 }
 
-.styledLinkContainer--header__bottom__icons__menu  {
-    width: 70px;
+.styledLinkContainer--header__bottom__icons__menu {
+    width : 70px;
     height: 47px;
 }
 
