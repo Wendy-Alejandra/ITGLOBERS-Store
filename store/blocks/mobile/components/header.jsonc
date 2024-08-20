@@ -1,9 +1,6 @@
 {
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
   "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+    "children": ["flex-layout.row#mobile", "header-row#header__bottom__icons__menu--global"]
   },
   "flex-layout.row#mobile": {
     "title": "Main header mobile",
