@@ -27,7 +27,7 @@
     "props": {
       "blockClass": "header__section__2--mobile"
     },
-    "children": ["icon#header__search--mobile", "minicart.v2", "login"]
+    "children": ["icon#header__search--mobile", "minicart.v2#minicart--mobile", "login"]
   },
   "drawer#mobile": {
     "title": "Top header mobile hamburguer icon",
@@ -52,13 +52,30 @@
     "title": "Mobile search-bar",
     "props":{
       "blockClass": "search__mobile",
-      "id": "hpa-search",
+      "id": "search-magnifier",
       "width": 20,
       "height": 20,
       "size": 20,
       "viewBox": "0 0 20 20",
       "overflow": "visible",
       "activeClassName": "vtex-store-components-3-x-searchIcon"
+    }
+  },
+  "minicart.v2#minicart--mobile": {
+    "title": "Minicart header mobile",
+    "props":{
+      "MinicartIcon": "icon-cart#minicart__icon--mobile"
+    }
+  },
+  "icon-cart#minicart__icon--mobile": {
+    "props": {
+      "id": "shopping-cart",
+      "width": 20,
+      "height": 20,
+      "size": 20,
+      "viewBox": "0 0 20 20",
+      "overflow": "visible",
+      "blockclass": "minicart_icon--mobile"
     }
   },
   "login": {
