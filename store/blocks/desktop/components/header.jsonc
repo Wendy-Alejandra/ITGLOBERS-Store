@@ -71,9 +71,26 @@
   "flex-layout.row#header__section__2--desktop": {
     "title": "Second section row of top header line",
     "children": [
-      "minicart.v2",
+      "minicart.v2#minicart--desktop",
       "login"      
     ]
+  },
+  "minicart.v2#minicart--desktop": {
+    "title": "Minicart header desktop",
+    "props":{
+      "MinicartIcon": "icon-cart#minicart__icon--desktop"
+    }
+  },
+  "icon-cart#minicart__icon--desktop": {
+    "props": {
+      "id": "shopping-cart",
+      "width": 20,
+      "height": 20,
+      "size": 20,
+      "viewBox": "0 0 20 20",
+      "overflow": "visible",
+      "blockclass": "minicart_icon--mobile"
+    }
   },
   "login": {
     "title": "Login header button",
