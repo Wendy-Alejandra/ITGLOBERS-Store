@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 
-.headerRowBackground--header__bottom__icons__menu {
+.headerRowBackground {
     background-color: #ffffff;
 }
 /*---Adds a scroll bar to the icons menu in bottom header to navigate sideways---*/

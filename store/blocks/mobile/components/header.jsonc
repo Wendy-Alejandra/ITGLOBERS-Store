@@ -1,8 +1,8 @@
 {
   "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile", "header-row#header__bottom__icons__menu--global"]
+    "children": ["header-row#header__top__menu--mobile", "header-row#header__bottom__icons__menu--global"]
   },
-  "flex-layout.row#mobile": {
+  "header-row#header__top__menu--mobile": {
     "title": "Main header mobile",
     "props": {
       "blockClass": "main-header-mobile",
