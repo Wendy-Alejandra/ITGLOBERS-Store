@@ -1,4 +1,7 @@
 {
+  "sticky-layout#desktop": {
+    "children": ["header-row#header__top__menu--desktop", "header-row#header__bottom__icons__menu--global"]
+  },
   "header-row#header__top__menu--desktop": {
     "title": "Header top menu for desktop devices",
     "props": {
