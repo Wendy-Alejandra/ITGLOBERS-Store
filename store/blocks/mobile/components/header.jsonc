@@ -48,19 +48,6 @@
       "flexGrow": 1
     }
   },
-  "icon#header__search--mobile": {
-    "title": "Mobile search-bar",
-    "props":{
-      "blockClass": "search__mobile",
-      "id": "search-magnifier",
-      "width": 20,
-      "height": 20,
-      "size": 20,
-      "viewBox": "0 0 20 20",
-      "overflow": "visible",
-      "activeClassName": "vtex-store-components-3-x-searchIcon"
-    }
-  },
   "minicart.v2#minicart--mobile": {
     "title": "Minicart header mobile",
     "props":{

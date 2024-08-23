@@ -1,0 +1,35 @@
+{
+  "overlay-trigger#header__search--mobile": {
+    "children": [
+      "icon#header__search--mobile",
+      "overlay-layout#header__search__overlay"
+    ]
+  },
+  "icon#header__search--mobile": {
+    "title": "Header mobile search magnifier icon",
+    "props": {
+      "blockClass": "search__mobile",
+      "id": "search-magnifier",
+      "width": 20,
+      "height": 20,
+      "size": 20,
+      "viewBox": "0 0 20 20",
+      "overflow": "visible",
+      "activeClassName": "vtex-store-components-3-x-searchIcon"
+    }
+  },
+  "overlay-layout#header__search__overlay": {
+    "props": {
+      "placement": "left",
+      "blockClass": "header__search__overlay--mobile",
+      "transitionComponent": "fadeInLeft"
+    },
+    "children": ["search-bar#header__search__bar--mobile"]
+  },
+  "search-bar#header__search__bar--mobile": {
+    "props": {
+      "placeholder": "Buscar productos...",
+      "blockClass": "header__search__bar--mobile"
+    }
+  }
+}
