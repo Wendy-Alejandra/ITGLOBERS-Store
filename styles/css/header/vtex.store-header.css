@@ -1,0 +1,19 @@
+/*---Expands header's items to each end---*/
+.headerRowContainer {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.headerRowBackground {
+    background-color: #ffffff;
+}
+/*---Adds a scroll bar to the icons menu in bottom header to navigate sideways---*/
+.headerStickyRow--header__bottom__icons__menu {
+    overflow: scroll;
+}
+
+.headerRowContentContainer--header__bottom__icons__menu {
+    padding-left   : 0;
+    display        : flex;
+    justify-content: flex-start;
+}

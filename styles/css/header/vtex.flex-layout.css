@@ -1,0 +1,30 @@
+/*---Styles the search-bar border---*/
+.flexCol--col__header__searchBar-desktop :global(.vtex-input-prefix__group) {
+    border-style : solid;
+    border-radius: 30px;
+    border-color : #F5F4F6;
+}
+
+/*---Header Login button alignment---*/
+.stretchChildrenWidth {
+    display    : flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+    /*---Top header items alignment---*/
+    .flexRowContent--main-header-mobile {
+        display        : flex;
+        justify-content: space-between;
+        align-items    : center;
+        padding-left   : 10px;
+        padding-right  : 16px;
+    }
+
+    .flexRowContent--header__section__1--mobile,
+    .flexRowContent--header__section__2--mobile {
+        display    : flex;
+        align-items: center;
+    }
+}

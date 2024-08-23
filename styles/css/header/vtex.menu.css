@@ -1,0 +1,29 @@
+.menuContainerNav--header__top__menu {
+    padding-left : 58px;
+    padding-right: 40px;
+}
+
+.styledLinkContent {
+    font-size     : 12px;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.styledLinkContainer--header__top__menu {
+    margin: 6px 6px;
+}
+
+.menuContainerNav--header__bottom__icons__menu {
+    padding-left: 0;
+}
+
+.styledLinkContainer--header__bottom__icons__menu {
+    width : 70px;
+    height: 47px;
+}
+
+.styledLinkContainer--menu-item-tendencias {
+    text-decoration: underline !important;
+    /*Does not apply yet the underline of Temndencias de ITGlobers item*/
+}

@@ -1,25 +1,29 @@
 .flexRow--carrusel__total {
     margin-bottom: 3rem;
 }
+
 .flexCol--card {
     background-color: #ffffff;
-    margin: 0.5rem;
-    border-radius: 12px;
+    margin          : 0.5rem;
+    border-radius   : 12px;
 }
+
 .flexRowContent--global__main__summary {
     margin-bottom: 6px;
     padding-right: 8px;
     margin-bottom: 6px;
 }
+
 .flexRowContent--global__main__summary :global(.vtex-button) {
-    border: 1px solid #1D2734;
-    height: 32px;
-    border-radius: 4px;
-    padding: 8px 12px 6px 12px;
+    border          : 1px solid #1D2734;
+    height          : 32px;
+    border-radius   : 4px;
+    padding         : 8px 12px 6px 12px;
     background-color: #F0F0F2;
-    right: 0;
-    top: 0;
+    right           : 0;
+    top             : 0;
 }
+
 .flexRowContent--global__main__summary :global(.vtex-button__label) {
     padding: 0;
 }
@@ -28,16 +32,19 @@
     .flexCol--card {
         height: 420px !important;
     }
+
     .flexRowContent--global__main__summary {
-        display: flex; /*To show price-savings and wishlist items inline*/
+        display: flex;
+        /*To show price-savings and wishlist items inline*/
     }
+
     .flexRowContent--global__main__summary :global(.vtex-button) {
-        border: 1px solid #1D2734;
-        height: 30px;
-        border-radius: 4px;
-        padding: 6px 12px 4px 10px;
+        border          : 1px solid #1D2734;
+        height          : 30px;
+        border-radius   : 4px;
+        padding         : 6px 12px 4px 10px;
         background-color: #F0F0F2;
-        right: 0;
-        top: 0;
+        right           : 0;
+        top             : 0;
     }
 }

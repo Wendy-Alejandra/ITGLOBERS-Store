@@ -1,31 +1,107 @@
 {
   "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": ["flex-layout.row#desktop"]
+    "children": ["header-row#header__top__menu--desktop", "header-row#header__bottom__icons__menu--global"]
   },
-  "flex-layout.row#desktop": {
+  "header-row#header__top__menu--desktop": {
+    "title": "Header top menu for desktop devices",
     "props": {
-      "horizontalAlign": "center",
+      "blockClass": "header__top__menu"
+    },
+    "children": [
+      "flex-layout.row#header__section__1--desktop",
+      "vtex.menu@2.x:menu#websites",
+      "flex-layout.row#header__section__2--desktop"
+    ]
+  },
+  "flex-layout.row#header__section__1--desktop": {
+    "props": {
+      "horizontalAlign": "left",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#header__drawer--desktop",
+      "flex-layout.col#header__logo--desktop",
+      "flex-layout.col#header__searchBar--desktop"
     ]
   },
-  "flex-layout.col#logo-desktop": {
+  "flex-layout.col#header__drawer--desktop": {
+    "title": "Header hamburguer drawer menu",
     "props": {
-      "verticalAlign": "middle"
+      "blockClass": "col__header__drawer--desktop"
     },
-    "children": ["logo"]
+    "children": ["drawer"] /*Automatically adds a hamburguer icon menu*/
+  },
+  "flex-layout.col#header__logo--desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "col__header__logo--desktop"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "logo": {
+    "props": {
+      "title": "ITG Logo",
+      "href": "/",
+      "url": "/arquivos/icon_Black.png",
+      "width": "32",
+      "blockClass": "logo__itg--desktop"
+    }
+  },
+  "flex-layout.col#header__searchBar--desktop": {
+    "title": "Header column search-bar desktop",
+    "props": {
+      "placeholder": "Search products...",
+      "blockClass": "col__header__searchBar-desktop"
+    },
+    "children":["search-bar"] /*Automatically adds a search bar*/
+  },
+  "search-bar": {
+    "title": "Header search-bar desktop",
+    "props": {
+      "placeholder": "Search products...",
+      "font": "mini",
+      "blockClass": "header__searchBar-desktop"
+    }
+  },
+  "flex-layout.row#header__section__2--desktop": {
+    "title": "Second section row of top header line",
+    "children": [
+      "minicart.v2#minicart--desktop",
+      "login"      
+    ]
+  },
+  "minicart.v2#minicart--desktop": {
+    "title": "Minicart header desktop",
+    "props":{
+      "MinicartIcon": "icon-cart#minicart__icon--desktop"
+    }
+  },
+  "icon-cart#minicart__icon--desktop": {
+    "props": {
+      "id": "shopping-cart",
+      "width": 20,
+      "height": 20,
+      "size": 20,
+      "viewBox": "0 0 20 20",
+      "overflow": "visible",
+      "blockclass": "minicart_icon--mobile"
+    }
+  },
+  "login": {
+    "title": "Login header button",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Login",
+      "blockClass": "header__login"
+    }
   }
 }

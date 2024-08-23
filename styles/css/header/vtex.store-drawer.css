@@ -1,0 +1,10 @@
+/*---Hamburguer menu---*/
+.openIconContainer {
+    padding-top: 19px;
+}
+
+@media screen and (max-width: 1024px) {
+    .openIconContainer {
+        margin-right: 8px;
+    }
+}

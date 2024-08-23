@@ -26,6 +26,7 @@
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
+    "vtex.search": "2.x",
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
     "vtex.modal-layout": "0.x",
@@ -49,7 +50,9 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "vtex.product-highlights": "2.x"
+    "vtex.product-highlights": "2.x",
+    "vtex.store-icons": "0.x",
+    "vtex.overlay-layout": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

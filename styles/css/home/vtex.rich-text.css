@@ -2,22 +2,49 @@
     margin-left: 4.5rem;
     font-weight: bold;
 }
+
 .paragraph--text--title {
-    margin: 0.86rem;
+    margin     : 0.86rem;
     font-weight: bold;
 }
+
 .paragraph--text--description {
     margin: 0.86rem;
 }
+
 .link--verprecio--button {
     text-decoration: none;
-    color: #FFFFFF;
-    padding: 0 1rem;
-    width: 134px;
-    height: 43px;
+    color          : #FFFFFF;
+    padding        : 0 1rem;
+    width          : 134px;
+    height         : 43px;
 }
+
 .wrapper--verprecio--button {
-    border: 2px solid #1D2734;
-    border-radius: 30px;
+    border          : 2px solid #1D2734;
+    border-radius   : 30px;
     background-color: #1D2734;
+}
+
+@media screen and (max-width: 1024px) {
+    .paragraph--text--title {
+        font-size: 0.63rem;
+    }
+
+    .paragraph--text--description {
+        font-size: 0.63rem;
+    }
+
+    .link--verprecio--button {
+        text-decoration: none;
+        color          : #FFFFFF;
+        font-size      : 0.63rem;
+        padding        : 0 1rem;
+        width          : 90px;
+        height         : 40px;
+    }
+
+    .wrapper--verprecio--button {
+        border: 0.65px solid #1D2734;
+    }
 }

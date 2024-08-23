@@ -1,0 +1,29 @@
+.container {
+    display         : flex;
+    justify-content : center;
+    border          : 1px solid #1D2734;
+    background-color: #1D2734;
+    border-radius   : 40px;
+    padding         : 10px;
+    width: 80px;
+    height: 40px;
+
+}
+
+.label {
+    font-size     : 14px;
+    font-weight   : 300;
+    color         : #FFFFFF;
+    text-transform: lowercase;
+}
+
+.label::first-letter {
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 1024px) {
+    /*Display block shows login label in mobile devices (vtex default was display none)*/
+    .label {
+        display: block;
+    }
+}

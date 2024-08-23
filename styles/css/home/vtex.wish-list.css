@@ -1,7 +1,7 @@
 .wishlistIcon {
-    background: url("/arquivos/add-to--favorites.svg");
+    background       : url("/arquivos/add-to--favorites.svg");
     background-repeat: no-repeat;
-    width: 17px;
-    margin-top: 6px;
-    margin-right: -2px;
+    width            : 17px;
+    margin-top       : 6px;
+    margin-right     : -2px;
 }

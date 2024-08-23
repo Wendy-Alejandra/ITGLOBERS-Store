@@ -1,0 +1,70 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "title": "Top header menu",
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-tendencias",
+          "type": "custom",
+          "highlight": false,
+          "blockClass": "menu-item-tendencias",
+          "itemProps": {
+            "type": "internal",
+            "href": "/tendencias",
+            "noFollow": false,
+            "tagTitle": "Tendencias de ITGlobers",
+            "text": "Tendencias de ITGlobers"
+          }
+        },
+        {
+          "id": "menu-item-coleccion",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/coleccion",
+            "noFollow": false,
+            "tagTitle": "coleccion del mes",
+            "text": "Colección del mes"
+          }
+        },
+        {
+          "id": "menu-item-ofertas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ofertas",
+            "noFollow": false,
+            "tagTitle": "ofertas enero",
+            "text": "Ofertas enero"
+          }
+        },
+        {
+          "id": "menu-item-cyber",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cyber-monday",
+            "noFollow": false,
+            "tagTitle": "cyber monday",
+            "text": "Cyber Monday"
+          }
+        },
+        {
+          "id": "menu-item-never",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/never-say-never",
+            "noFollow": false,
+            "tagTitle": "never say never",
+            "text": "Never say never"
+          }
+        }
+      ]
+    }
+  }
+}

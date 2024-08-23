@@ -1,0 +1,8 @@
+/*---Fills the search-bar icon in the top header---*/
+.autoCompleteOuterContainer--header__searchBar-desktop :global(.vtex-input__suffix) {
+    background-color: #F5F4F6;
+}
+
+.logoContainer--logo__itg--desktop {
+    padding-left: 0;
+}

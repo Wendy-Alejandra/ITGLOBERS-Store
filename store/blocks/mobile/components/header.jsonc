@@ -1,26 +1,80 @@
 {
-    "header-layout.mobile": {
-      "children": ["sticky-layout#mobile"]
+  "sticky-layout#mobile": {
+    "children": ["header-row#header__top__menu--mobile", "header-row#header__bottom__icons__menu--global"]
+  },
+  "header-row#header__top__menu--mobile": {
+    "title": "Top header mobile",
+    "props": {
+      "blockClass": "top-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
     },
-    "sticky-layout#mobile": {
-      "children": ["flex-layout.row#mobile"]
+    "children": [
+      "flex-layout.row#header__section__1--mobile",
+      "flex-layout.row#header__section__2--mobile"
+    ]
+  },
+  "flex-layout.row#header__section__1--mobile": {
+    "title": "Top header section 2 row mobile",
+    "props": {
+      "blockClass": "header__section__1--mobile"
     },
-    "flex-layout.row#mobile": {
-      "children": [
-        "drawer",
-        "logo",
-        "flex-layout.col#spacer",
-        "login",
-        "minicart.v2"
-      ],
-      "props": {
-        "blockClass": "main-header-mobile",
-        "preventHorizontalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "fullWidth": true
-      }
+    "children": ["drawer", "logo", "flex-layout.col#header__mobile__spacer"]
+  },
+  "flex-layout.row#header__section__2--mobile": {
+    "title": "Top header section 2 row mobile",
+    "props": {
+      "blockClass": "header__section__2--mobile"
     },
-    "drawer": {
-      "children": []
+    "children": ["icon#header__search--mobile", "minicart.v2#minicart--mobile", "login"]
+  },
+  "drawer#mobile": {
+    "title": "Top header mobile hamburguer icon",
+    "props": {
+      "blockClass": "drawer__mobile"
+    }
+  },
+  "logo#mobile": {
+    "title": "Top header mobile ITG logo",
+    "props": {
+      "blockClass": "logo__itg--mobile"
+    }
+  },
+  "flex-layout.col#header__mobile__spacer": {
+    "title": "Top header mobile spacer",
+    "props": {
+      "blockClass": "header__mobile__spacer",
+      "flexGrow": 1
+    }
+  },
+  "minicart.v2#minicart--mobile": {
+    "title": "Minicart header mobile",
+    "props":{
+      "MinicartIcon": "icon-cart#minicart__icon--mobile"
+    }
+  },
+  "icon-cart#minicart__icon--mobile": {
+    "props": {
+      "id": "shopping-cart",
+      "width": 20,
+      "height": 20,
+      "size": 20,
+      "viewBox": "0 0 20 20",
+      "overflow": "visible",
+      "blockclass": "minicart_icon--mobile"
+    }
+  },
+  "login": {
+    "title": "Top header login button mobile",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Login",
+      "blockClass": "header__login"
     }
   }
+}
